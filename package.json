@@ -1,0 +1,34 @@
+{
+  "name": "react-starter-pack",
+  "version": "1.0.0",
+  "description": "environment set up to work with react.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohiuddinAkib/react_starter_pack.git"
+  },
+  "author": "Mohammad mohiuddin akib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MohiuddinAkib/react_starter_pack/issues"
+  },
+  "homepage": "https://github.com/MohiuddinAkib/react_starter_pack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
